@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Raven Sisters Baking Co. placeholder logo">
+  <title>Raven Sisters Baking Co. — placeholder logo</title>
+  <circle cx="200" cy="200" r="200" fill="#1FA1A8"/>
+  <g fill="#141414">
+    <!-- Perched raven, facing left: tail sweeps up-right, wing folded over the back. -->
+    <path d="M126 118c14-16 36-24 57-20l46 8 44-22-24 34c9 12 12 27 8 41l-6 22c-3 12-10 22-20 30l-38 30 78-34-96 66c-8 6-19 4-24-4-3-5-3-11 0-16l14-24-46 10c-9 2-18-4-19-13-1-7 3-14 10-16l44-16-30-24c-13-11-16-30-6-44z"/>
+    <!-- beak -->
+    <path d="M124 128 62 150l64 16z"/>
+    <!-- folded wing -->
+    <path d="M182 150c26-6 50 6 60 30 6 15 4 31-6 43l-52-26c-14-7-20-24-13-38 2-5 6-8 11-9z" fill="#1FA1A8" opacity=".28"/>
+  </g>
+  <!-- eye -->
+  <circle cx="150" cy="132" r="7" fill="#1FA1A8"/>
+</svg>

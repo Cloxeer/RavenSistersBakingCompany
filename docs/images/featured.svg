@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1066" width="1600" height="1066" role="img" aria-label="Baked from scratch placeholder">
+  <title>Baked from scratch — placeholder photo</title>
+  <rect width="1600" height="1066" fill="#F1E3D5"/>
+  <g fill="none" stroke="#8A6A55" stroke-width="2" opacity=".45">
+    <circle cx="800" cy="445" r="152"/>
+    <path d="M400 746 q 200 -118 400 0 q 200 118 400 0"/>
+  </g>
+  <text x="800" y="888" font-family="Georgia, serif" font-size="48" fill="#8A6A55" opacity=".75" text-anchor="middle">Baked from scratch</text>
+  <text x="800" y="954" font-family="Georgia, serif" font-size="31" fill="#8A6A55" opacity=".5" text-anchor="middle">placeholder — replace with real photo</text>
+</svg>

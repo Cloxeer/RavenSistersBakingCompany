@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 960" width="720" height="960" role="img" aria-label="Say hello placeholder">
+  <title>Say hello — placeholder photo</title>
+  <rect width="720" height="960" fill="#EFDFD5"/>
+  <g fill="none" stroke="#8A6A55" stroke-width="2" opacity=".45">
+    <circle cx="360" cy="400" r="137"/>
+    <path d="M180 672 q 90 -106 180 0 q 90 106 180 0"/>
+  </g>
+  <text x="360" y="800" font-family="Georgia, serif" font-size="43" fill="#8A6A55" opacity=".75" text-anchor="middle">Say hello</text>
+  <text x="360" y="860" font-family="Georgia, serif" font-size="28" fill="#8A6A55" opacity=".5" text-anchor="middle">placeholder — replace with real photo</text>
+</svg>

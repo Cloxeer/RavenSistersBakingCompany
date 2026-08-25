@@ -1,0 +1,92 @@
+{
+  "version": 2,
+  "projectType": "bakery",
+  "sections": [
+    "nav",
+    "hero",
+    "tagline",
+    "cards",
+    "featured",
+    "drops",
+    "newsletter",
+    "footer"
+  ],
+  "pages": [
+    {
+      "id": "home",
+      "label": "Home",
+      "path": "index.html",
+      "sections": [
+        "nav",
+        "hero",
+        "tagline",
+        "cards",
+        "featured",
+        "drops",
+        "newsletter",
+        "footer"
+      ]
+    },
+    {
+      "id": "menu",
+      "label": "What We Bake",
+      "path": "menu.html",
+      "sections": [
+        "nav",
+        "menu",
+        "newsletter",
+        "footer"
+      ]
+    },
+    {
+      "id": "story",
+      "label": "Our Story",
+      "path": "story.html",
+      "sections": [
+        "nav",
+        "story",
+        "footer"
+      ]
+    },
+    {
+      "id": "faq",
+      "label": "FAQ",
+      "path": "faq.html",
+      "sections": [
+        "nav",
+        "faq",
+        "footer"
+      ]
+    },
+    {
+      "id": "contact",
+      "label": "Contact",
+      "path": "contact.html",
+      "sections": [
+        "nav",
+        "contact",
+        "footer"
+      ]
+    },
+    {
+      "id": "privacy",
+      "label": "Privacy Policy",
+      "path": "privacy.html",
+      "sections": [
+        "nav",
+        "privacy",
+        "footer"
+      ]
+    },
+    {
+      "id": "terms",
+      "label": "Terms of Use",
+      "path": "terms.html",
+      "sections": [
+        "nav",
+        "terms",
+        "footer"
+      ]
+    }
+  ]
+}
