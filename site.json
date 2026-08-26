@@ -2,7 +2,8 @@
   "type": "bakery",
   "meta": {
     "title": "Raven Sisters Baking Co. | Small-batch bakery in central New Mexico",
-    "description": "Raven Sisters Baking Co. is a home-based bakery in central New Mexico. Bagels, breads and sweets made from scratch and sold in limited weekly drops."
+    "description": "Raven Sisters Baking Co. is a home-based bakery in central New Mexico. Bagels, breads and sweets made from scratch and sold in limited weekly drops.",
+    "favicon": "/images/logo-raven.jpg"
   },
   "theme": {
     "fontDisplay": "Fraunces",
