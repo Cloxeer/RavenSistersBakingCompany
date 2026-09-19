@@ -1,0 +1,331 @@
+identity:
+  id: ws_9bd393b88567
+project:
+  version: 2
+  projectType: bakery
+  sections:
+    - nav
+    - hero
+    - tagline
+    - cards
+    - featured
+    - drops
+    - newsletter
+    - footer
+  pages:
+    - id: home
+      label: Home
+      path: index.html
+      sections:
+        - nav
+        - hero
+        - tagline
+        - cards
+        - featured
+        - drops
+        - newsletter
+        - footer
+    - id: menu
+      label: What We Bake
+      path: menu.html
+      sections:
+        - nav
+        - menu
+        - newsletter
+        - footer
+    - id: story
+      label: Our Story
+      path: story.html
+      sections:
+        - nav
+        - story
+        - footer
+    - id: faq
+      label: FAQ
+      path: faq.html
+      sections:
+        - nav
+        - faq
+        - footer
+    - id: contact
+      label: Contact
+      path: contact.html
+      sections:
+        - nav
+        - contact
+        - footer
+    - id: privacy
+      label: Privacy Policy
+      path: privacy.html
+      sections:
+        - nav
+        - privacy
+        - footer
+    - id: terms
+      label: Terms of Use
+      path: terms.html
+      sections:
+        - nav
+        - terms
+        - footer
+site:
+  type: bakery
+  meta:
+    title: Raven Sisters Baking Co. | Small-batch bakery in central New Mexico
+    description: Raven Sisters Baking Co. is a home-based bakery in central New
+      Mexico. Bagels, breads and sweets made from scratch and sold in limited
+      weekly drops.
+    favicon: /images/logo-raven.jpg
+  theme:
+    fontDisplay: Fraunces
+    fontBody: Cabin
+    colorText: "#000C10"
+    colorMuted: "#5A7377"
+    colorAccent: "#06C3C9"
+    colorBackground: "#FFFFFF"
+    colorSurface: "#EDFAFC"
+  business:
+    name: Raven Sisters Baking Co.
+    slogan: Small-batch bagels, breads and sweets — made from scratch in central New
+      Mexico.
+    phone: 505-835-4180
+    phoneTel: "+15058354180"
+    email: crstice@gmail.com
+    city: Central New Mexico
+    state: NM
+    serviceArea: Home-based in central New Mexico. Pickup and delivery are arranged
+      with each drop.
+    instagramUrl: https://instagram.com/ravensistersbakingco
+    facebookUrl: https://facebook.com/61509648091867
+    orderUrl: https://www.hotplate.com/ravensistersbakingcompany
+    established: "2024"
+  nav:
+    logo: images/logo-raven.jpg
+    logoShape: natural
+    links:
+      - label: What We Bake
+        href: menu.html
+      - label: Our Story
+        href: story.html
+      - label: FAQ
+        href: faq.html
+      - label: Contact
+        href: contact.html
+  hero:
+    headline: baked from scratch, in small batches
+    subtext: Bagels, breads and sweets — released in limited drops from our central
+      New Mexico kitchen.
+    image: images/hero.jpg
+    imageAlt: Fresh bagels and bread cooling on a rack
+    primaryCta:
+      label: Order the drop
+      href: https://www.hotplate.com/ravensistersbakingcompany
+    secondaryCta:
+      label: ""
+      href: https://www.hotplate.com/ravensistersbakingcompany
+  tagline:
+    quote: Two sisters, one home kitchen, and everything made by hand — bagels
+      boiled, bread proofed slow, sweets baked the morning of.
+  cards:
+    items:
+      - title: Order this week's drop
+        href: https://www.hotplate.com/ravensistersbakingcompany
+        image: images/card-order.jpg
+        imageAlt: A tray of freshly baked bagels
+      - title: What we bake
+        href: menu.html
+        image: images/card-menu.jpg
+        imageAlt: Loaves of bread cooling on a rack
+      - title: Contact us
+        href: contact.html
+        image: images/card-contact.jpg
+        imageAlt: The Raven Sisters home kitchen
+  featured:
+    image: images/featured.jpg
+    imageAlt: A table of freshly baked bagels, bread and sweets
+    caption: Every drop is mixed, shaped and baked by hand the morning you pick it up.
+  drops:
+    title: How our drops work
+    intro: We bake in limited batches from a home kitchen, so everything is made to
+      order and always fresh. Drops open on Hotplate and usually sell out.
+    steps:
+      - title: The menu goes up
+        description: We post the week's line-up on Hotplate and Instagram, and the order
+          window opens.
+      - title: Claim your order
+        description: Order and pay through Hotplate — checkout is handled securely by
+          Square.
+      - title: Pickup or delivery
+        description: We confirm the pickup window and delivery area for that drop, then
+          bake it fresh that morning.
+    cta:
+      label: Order the drop
+      href: https://www.hotplate.com/ravensistersbakingcompany
+    note: Drops are limited and often sell out early — turn on drop alerts so you
+      hear first.
+  story:
+    title: Our story
+    paragraphs:
+      - Raven Sisters Baking Co. started the way most good bakeries do — baking
+        far too much for friends and family, and never quite being able to stop.
+      - "We are a home-based bakery in central New Mexico. Everything is made
+        from scratch in small batches: bagels boiled and hand-rolled, breads
+        given a long slow proof, and sweets baked the morning they go out."
+      - Baking in drops keeps it that way. Instead of holding stock on a shelf,
+        we bake exactly what has been ordered, so what you pick up is only ever
+        hours old.
+      - The long game is a storefront — a little coffee shop and tea house where
+        the bakes come out of the oven all day, alongside a proper tea list and
+        house-made kombucha. Every drop gets us closer.
+    image: images/story.jpg
+    imageAlt: Shaping dough by hand in the Raven Sisters kitchen
+  menu:
+    title: What we bake
+    intro: The line-up rotates with each drop and with the seasons. These are the
+      bakes we come back to most.
+    categories:
+      - id: bagels
+        title: Bagels
+        items:
+          - name: Plain hand-rolled bagel
+            description: Boiled and baked the same morning — chewy centre, blistered crust.
+            price: ""
+          - name: Everything bagel
+            description: Our house everything blend, heavy on the toasted garlic and onion.
+            price: ""
+          - name: Green chile & cheese bagel
+            description: New Mexico green chile folded through with sharp cheddar.
+            price: ""
+      - id: breads
+        title: Breads
+        items:
+          - name: Country loaf
+            description: Long slow proof, open crumb, deep and well-baked crust.
+            price: ""
+          - name: Soft sandwich loaf
+            description: Tender, everyday bread that slices clean and toasts beautifully.
+            price: ""
+          - name: Focaccia
+            description: Dimpled, olive-oil rich, finished with flaky salt and herbs.
+            price: ""
+      - id: sweets
+        title: Sweets
+        items:
+          - name: Cinnamon rolls
+            description: Soft laminated dough, cinnamon through every layer, glazed warm.
+            price: ""
+          - name: Seasonal hand pies
+            description: Whatever fruit is best that week, tucked into all-butter pastry.
+            price: ""
+          - name: Cookies
+            description: Thick, chewy and baked to order alongside the rest of the drop.
+            price: ""
+    note: Menus change every drop — check Hotplate or Instagram for the current
+      line-up and pricing.
+  faq:
+    title: Frequently asked
+    items:
+      - question: How do I order?
+        answer: All orders go through our Hotplate page. When a drop opens you can
+          browse the menu, claim what you want, and pay right there — checkout
+          is processed securely by Square.
+      - question: How do I know when the next drop is?
+        answer: Turn on drop alerts on Hotplate and you will get a text as soon as the
+          order window opens. We also post every drop on Instagram and Facebook.
+      - question: Do you have a storefront I can visit?
+        answer: Not yet. We bake from a home kitchen in central New Mexico, so there is
+          no walk-in address. Pickup details are shared with your order
+          confirmation for each drop.
+      - question: Do you deliver?
+        answer: Pickup and local delivery are both offered depending on the drop. The
+          available options and the delivery area are listed on the drop when it
+          opens.
+      - question: Can I order for a party or a custom bake?
+        answer: Yes — send us an email or a message on Instagram with the date and what
+          you have in mind, and we will let you know what we can fit around the
+          drop schedule.
+      - question: Is everything really made from scratch?
+        answer: Yes. Doughs are mixed, proofed, shaped and baked by hand in small
+          batches. Nothing is par-baked or bought in.
+      - question: What about allergens?
+        answer: Everything is baked in one home kitchen that handles wheat, dairy, eggs
+          and nuts, so we cannot guarantee any item is free from cross contact.
+          Ask us before you order if you need specifics.
+  contact:
+    title: Say hello
+    body: Questions about a drop, a custom order, or where to pick up? We would love
+      to hear from you.
+    hours:
+      - label: Order window
+        time: Opens with each drop on Hotplate
+      - label: Pickup
+        time: Drop day — window confirmed with your order
+      - label: Delivery
+        time: Offered per drop across central New Mexico
+    note: We bake from a home kitchen, so there is no public street address or
+      walk-in counter yet.
+  newsletter:
+    title: Never miss a drop
+    body: Drops are limited and usually sell out. Turn on alerts and get a text the
+      moment the next order window opens.
+    cta:
+      label: Get drop alerts
+      href: https://www.hotplate.com/ravensistersbakingcompany
+  privacy:
+    title: Privacy Policy
+    updated: Updated 2026
+    body:
+      - "Raven Sisters Baking Co. collects only the information needed to take
+        and fulfil your order: your name, contact details, and what you
+        ordered."
+      - Orders and payments are handled by Hotplate, with card processing by
+        Square. Your payment details are entered on their systems and are never
+        seen or stored by us.
+      - If you opt in to drop alerts, your phone number is used through Hotplate
+        for that purpose only. You can turn alerts off at any time.
+      - We do not sell or rent your personal information to anyone.
+      - To ask what we hold about you, or to have it deleted, email
+        crstice@gmail.com.
+  terms:
+    title: Terms of Use
+    updated: Updated 2026
+    body:
+      - Orders are placed through our Hotplate page and are confirmed once
+        payment has been taken by Square.
+      - Because every drop is baked to order in small batches, orders cannot be
+        changed or cancelled once the drop closes and baking has been scheduled.
+      - Pickup windows and delivery areas are set for each drop and are shared
+        with your order confirmation. Orders not collected within the pickup
+        window cannot be remade or refunded.
+      - All of our baking happens in one home kitchen that handles wheat, dairy,
+        eggs and nuts. We cannot guarantee that any item is free from cross
+        contact with these allergens.
+      - Menus, pricing and availability change with each drop and may be updated
+        at any time.
+      - Questions about these terms can be sent to crstice@gmail.com.
+  footer:
+    links:
+      - label: Order the drop
+        href: https://www.hotplate.com/ravensistersbakingcompany
+      - label: What We Bake
+        href: menu.html
+      - label: Our Story
+        href: story.html
+      - label: FAQ
+        href: faq.html
+      - label: Contact
+        href: contact.html
+      - label: Privacy Policy
+        href: privacy.html
+      - label: Terms of Use
+        href: terms.html
+    copyright: © 2026 Raven Sisters Baking Co. All rights reserved.
+  footerCredit:
+    enabled: true
+    prefix: Created by
+    haliteText: ""
+    haliteUrl: ""
+    conjunction: ""
+    arrowheadText: Fintech Lab powered by Nusenda Credit Union
+    arrowheadUrl: https://arrowheadcenter.nmsu.edu/program/nusenda_fintech_lab/index.html
+    programLogo: /images/fintech-lab-logo.png
